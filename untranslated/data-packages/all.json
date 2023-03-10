@@ -448,7 +448,7 @@
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
@@ -3381,7 +3381,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
           },
           {
             "name": "Value",
