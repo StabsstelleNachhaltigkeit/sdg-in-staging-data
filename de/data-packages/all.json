@@ -1215,30 +1215,6 @@
       "title": "12-3"
     },
     {
-      "path": "6-3/data.csv",
-      "name": "6-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "6-3"
-    },
-    {
       "path": "9-1/data.csv",
       "name": "9-1",
       "profile": "tabular-data-resource",
@@ -1863,6 +1839,30 @@
       "title": "4-5"
     },
     {
+      "path": "1-5/data.csv",
+      "name": "1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1-5"
+    },
+    {
       "path": "11-12/data.csv",
       "name": "11-12",
       "profile": "tabular-data-resource",
@@ -2450,30 +2450,6 @@
         ]
       },
       "title": "8-3"
-    },
-    {
-      "path": "1-5/data.csv",
-      "name": "1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-5"
     },
     {
       "path": "1-6/data.csv",
