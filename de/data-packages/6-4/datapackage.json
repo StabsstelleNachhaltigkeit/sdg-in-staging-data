@@ -12,17 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer",
+            "title": "Jahr"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "6-6",
-  "title": "6-6"
+  "name": "6-4",
+  "title": "6-4"
 }
