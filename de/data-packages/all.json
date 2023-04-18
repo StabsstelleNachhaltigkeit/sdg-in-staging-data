@@ -1687,6 +1687,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Präventionsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "universelle Prävention",
+                "selektive Prävention",
+                "indizierte Prävention",
+                "Verhätnisprävention",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Präventionsart"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

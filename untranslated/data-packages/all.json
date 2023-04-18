@@ -1547,6 +1547,20 @@
             "type": "integer"
           },
           {
+            "name": "Präventionsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "universelle Prävention",
+                "selektive Prävention",
+                "indizierte Prävention",
+                "Verhätnisprävention",
+                "Gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
