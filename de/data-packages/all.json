@@ -166,7 +166,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "0",
                 "gerettet",
                 "weggeworfen",
                 "anteilig",
