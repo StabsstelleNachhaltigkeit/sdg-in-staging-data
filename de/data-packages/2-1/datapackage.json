@@ -16,6 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                "gerettet",
+                "weggeworfen",
+                "anteilig",
+                ""
+              ]
+            },
+            "title": "Category"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

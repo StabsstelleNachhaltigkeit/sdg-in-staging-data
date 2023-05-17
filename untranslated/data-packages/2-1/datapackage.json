@@ -15,6 +15,19 @@
             "type": "integer"
           },
           {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                "gerettet",
+                "weggeworfen",
+                "anteilig",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
