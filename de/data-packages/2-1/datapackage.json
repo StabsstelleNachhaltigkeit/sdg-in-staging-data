@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "weggeworfen in t",
-                "gerettet in t",
-                "gerettet anteilig in %",
+                "Weggeworfen in t",
+                "Gerettet in t",
+                "Gerettet anteilig in %",
                 ""
               ]
             },
