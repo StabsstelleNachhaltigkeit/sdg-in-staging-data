@@ -1076,16 +1076,17 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Zubau in kWp seit 1993",
-                "Zubau in kWp",
+                "Zubau in kWp 1993 bis 2018",
+                "Zubau in kWp ab 2019",
                 "kWp Gesamt",
+                "kWp Gesamt Stadt Ingolstadt",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
