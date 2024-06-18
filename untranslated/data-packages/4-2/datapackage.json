@@ -15,22 +15,8 @@
             "type": "integer"
           },
           {
-            "name": "Weiterbildungsart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "824",
-                "779",
-                "1049",
-                "1223",
-                "1284",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

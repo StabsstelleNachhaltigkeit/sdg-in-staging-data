@@ -749,23 +749,8 @@
             "title": "Jahr"
           },
           {
-            "name": "Weiterbildungsart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "824",
-                "779",
-                "1049",
-                "1223",
-                "1284",
-                ""
-              ]
-            },
-            "title": "Weiterbildungsart"
-          },
-          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
