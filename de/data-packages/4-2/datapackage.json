@@ -20,8 +20,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Bildungsprogramm",
-                "E-Learning",
+                "824",
+                "779",
+                "1049",
+                "1223",
+                "1284",
                 ""
               ]
             },
@@ -29,7 +32,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
