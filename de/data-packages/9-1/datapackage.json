@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -16,16 +16,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Anzahl angesiedelter Unternehmen",
+            "name": "Einrichtung",
             "type": "string",
             "constraints": {
               "enum": [
                 "brigk",
                 "EGZ",
+                "EGZ mit Fokus Nachhaltigkeit / Neues Geschäftsmodell",
                 ""
               ]
             },
-            "title": "Anzahl angesiedelter Unternehmen"
+            "title": "Einrichtung"
           },
           {
             "name": "Value",
