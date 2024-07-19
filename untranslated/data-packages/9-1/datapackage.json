@@ -15,8 +15,19 @@
             "type": "integer"
           },
           {
+            "name": "Anzahl angesiedelter Unternehmen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "brigk",
+                "EGZ",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
