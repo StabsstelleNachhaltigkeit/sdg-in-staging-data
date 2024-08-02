@@ -2180,6 +2180,43 @@
       "title": "15-2"
     },
     {
+      "path": "7-4/data.csv",
+      "name": "7-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Ladesäule",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Normalladesäule",
+                "Schnellladesäule",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Ladesäule"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "7-4"
+    },
+    {
       "path": "11-9/data.csv",
       "name": "11-9",
       "profile": "tabular-data-resource",
