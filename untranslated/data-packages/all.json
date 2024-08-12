@@ -2752,6 +2752,17 @@
             "type": "integer"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
