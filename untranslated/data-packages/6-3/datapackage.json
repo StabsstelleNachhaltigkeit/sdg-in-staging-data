@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Neuburg-Schrobenhausen",
+                "Eichstätt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
