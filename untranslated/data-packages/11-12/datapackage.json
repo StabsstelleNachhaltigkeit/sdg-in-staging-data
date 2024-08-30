@@ -15,13 +15,13 @@
             "type": "integer"
           },
           {
-            "name": "Lärmbelastete Fläche (km²)",
+            "name": "Lärmbelastete Fläche",
             "type": "string",
             "constraints": {
               "enum": [
-                ">55 dB",
-                ">65 dB",
-                ">75 dB",
+                "über 55 dB",
+                "über 65 dB",
+                "über 75 dB",
                 ""
               ]
             }
