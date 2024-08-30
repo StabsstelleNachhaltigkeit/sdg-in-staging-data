@@ -2812,8 +2812,20 @@
             "type": "integer"
           },
           {
+            "name": "Lärmbelastete Fläche (km²)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ">55 dB",
+                ">65 dB",
+                ">75 dB",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

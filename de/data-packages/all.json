@@ -3061,8 +3061,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Lärmbelastete Fläche (km²)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ">55 dB",
+                ">65 dB",
+                ">75 dB",
+                ""
+              ]
+            },
+            "title": "Lärmbelastete Fläche (km²)"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
