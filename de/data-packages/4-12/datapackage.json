@@ -25,6 +25,7 @@
                 "Mietzuschüsse",
                 "kirchliche Einrichtungen",
                 "Trachtenvereine",
+                "kirchliche Büchereien",
                 "gesamt",
                 ""
               ]
@@ -33,7 +34,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Value"
           }
         ]
