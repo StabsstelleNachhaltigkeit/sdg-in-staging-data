@@ -330,6 +330,41 @@
       "title": "15-6"
     },
     {
+      "path": "3-12/data.csv",
+      "name": "3-12",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geschlecht / Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "männlich",
+                "weiblich",
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "3-12"
+    },
+    {
       "path": "8-1/data.csv",
       "name": "8-1",
       "profile": "tabular-data-resource",
