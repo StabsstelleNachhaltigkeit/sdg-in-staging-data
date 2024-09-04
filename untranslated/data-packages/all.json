@@ -1593,6 +1593,39 @@
       "title": "10-4"
     },
     {
+      "path": "3-11/data.csv",
+      "name": "3-11",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mit Migrationshintegrund",
+                "Ohne Migrationshintergrund",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "3-11"
+    },
+    {
       "path": "8-4/data.csv",
       "name": "8-4",
       "profile": "tabular-data-resource",
