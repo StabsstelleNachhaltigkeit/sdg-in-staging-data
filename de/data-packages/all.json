@@ -276,46 +276,6 @@
       "title": "7-2"
     },
     {
-      "path": "7-3/data.csv",
-      "name": "7-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Sektoren",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Haushalte",
-                "Industrie",
-                "GHD",
-                "Verkehr",
-                "Gesamtemissionen",
-                "GHD - Stadtverwaltung Ingolstadt",
-                ""
-              ]
-            },
-            "title": "Sektoren"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-3"
-    },
-    {
       "path": "11-4/data.csv",
       "name": "11-4",
       "profile": "tabular-data-resource",
@@ -3033,6 +2993,46 @@
         ]
       },
       "title": "4-2"
+    },
+    {
+      "path": "13-2/data.csv",
+      "name": "13-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Sektoren",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Haushalte",
+                "Industrie",
+                "GHD",
+                "Verkehr",
+                "Gesamtemissionen",
+                "GHD - Stadtverwaltung Ingolstadt",
+                ""
+              ]
+            },
+            "title": "Sektoren"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "13-2"
     },
     {
       "path": "8-2/data.csv",
