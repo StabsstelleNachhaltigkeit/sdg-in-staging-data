@@ -697,6 +697,41 @@
       "title": "13-4"
     },
     {
+      "path": "1-7/data.csv",
+      "name": "1-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Arbeitslose Alleinerziehende",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "weiblich",
+                "männlich",
+                "Deutsch",
+                "Nicht-Deutsch",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "1-7"
+    },
+    {
       "path": "5-4/data.csv",
       "name": "5-4",
       "profile": "tabular-data-resource",
