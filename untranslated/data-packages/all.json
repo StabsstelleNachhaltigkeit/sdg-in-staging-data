@@ -3185,28 +3185,6 @@
       "title": "4-11"
     },
     {
-      "path": "5-5/data.csv",
-      "name": "5-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "5-5"
-    },
-    {
       "path": "1-9/data.csv",
       "name": "1-9",
       "profile": "tabular-data-resource",
