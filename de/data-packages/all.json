@@ -602,42 +602,6 @@
       "title": "15-3"
     },
     {
-      "path": "5-5/data.csv",
-      "name": "5-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Geschlecht",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Frauen",
-                "Männer",
-                ""
-              ]
-            },
-            "title": "Geschlecht"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "5-5"
-    },
-    {
       "path": "11-8/data.csv",
       "name": "11-8",
       "profile": "tabular-data-resource",
@@ -3523,6 +3487,30 @@
         ]
       },
       "title": "5-3"
+    },
+    {
+      "path": "5-5/data.csv",
+      "name": "5-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "5-5"
     },
     {
       "path": "1-9/data.csv",
