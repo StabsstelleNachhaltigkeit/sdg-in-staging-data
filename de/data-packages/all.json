@@ -3472,6 +3472,42 @@
       "title": "11-12"
     },
     {
+      "path": "4-11/data.csv",
+      "name": "4-11",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Zuganspunkte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Wlan",
+                "PCs",
+                ""
+              ]
+            },
+            "title": "Zuganspunkte"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-11"
+    },
+    {
       "path": "1-9/data.csv",
       "name": "1-9",
       "profile": "tabular-data-resource",
