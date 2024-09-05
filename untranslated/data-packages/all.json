@@ -2940,6 +2940,20 @@
             "type": "integer"
           },
           {
+            "name": "Antriebsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Benzin",
+                "Diesel",
+                "Gas",
+                "Hybrid",
+                "Elektro",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
