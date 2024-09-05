@@ -1439,21 +1439,19 @@
             "type": "integer"
           },
           {
-            "name": "Arbeitslose Alleinerziehende",
+            "name": "Alleinerziehende",
             "type": "string",
             "constraints": {
               "enum": [
-                "weiblich",
-                "männlich",
-                "Deutsch",
-                "Nicht-Deutsch",
+                "Leistungsbezieher/-innen",
+                "gesamt",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
