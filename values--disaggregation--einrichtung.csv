@@ -1,3 +1,6 @@
 Value,Disaggregation combinations using this value,Number of indicators
-KU,1,1
-THI,1,1
+gesamt,1,1
+KU - ausländische Studierende,1,1
+KU - deutsche Studierende,1,1
+THI - ausländische Studierende,1,1
+THI - deutsche Studierende,1,1
