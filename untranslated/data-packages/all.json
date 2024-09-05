@@ -2030,6 +2030,17 @@
             "type": "integer"
           },
           {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mit Migrationshintergrund",
+                "Ohne Migrationshintergrund",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
