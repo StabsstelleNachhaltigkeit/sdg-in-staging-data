@@ -1566,6 +1566,17 @@
             "type": "integer"
           },
           {
+            "name": "Unfall mit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Getötete oder schwer verletzte",
+                "Personenschaden",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
