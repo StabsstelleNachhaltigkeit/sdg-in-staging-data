@@ -3559,30 +3559,6 @@
       "title": "13-3"
     },
     {
-      "path": "1-9/data.csv",
-      "name": "1-9",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-9"
-    },
-    {
       "path": "10-7/data.csv",
       "name": "10-7",
       "profile": "tabular-data-resource",
