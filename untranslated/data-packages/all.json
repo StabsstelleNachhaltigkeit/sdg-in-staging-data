@@ -59,6 +59,7 @@
               "enum": [
                 "Kommunalwahl",
                 "Landtagswahl",
+                "Bundestagswahl",
                 ""
               ]
             }
