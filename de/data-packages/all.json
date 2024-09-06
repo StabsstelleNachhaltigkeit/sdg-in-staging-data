@@ -1987,7 +1987,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
@@ -1996,17 +1996,16 @@
             "title": "Jahr"
           },
           {
-            "name": "Lärmbelastete Fläche",
+            "name": "Naherholungsflächen",
             "type": "string",
             "constraints": {
               "enum": [
-                "über 55 dB",
-                "über 65 dB",
-                "über 75 dB",
+                "ha / 1000 EW",
+                "ha gesamt",
                 ""
               ]
             },
-            "title": "Lärmbelastete Fläche"
+            "title": "Naherholungsflächen"
           },
           {
             "name": "Value",
