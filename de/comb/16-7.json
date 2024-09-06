@@ -1,1 +1,1 @@
-{"data":{"Year":[2002,2008,2014,2020],"Wahl":["Kommunalwahl","Kommunalwahl","Kommunalwahl","Kommunalwahl"],"Value":[55.1,47.3,42.4,45.8]},"edges":[]}
+{"data":{"Year":[2002,2008,2013,2014,2018,2020,2023],"Wahl":["Kommunalwahl","Kommunalwahl","Landtagswahl","Kommunalwahl","Landtagswahl","Kommunalwahl","Landtagswahl"],"Value":[55.1,47.3,55.4,42.4,64.9,45.8,63.6]},"edges":[]}
