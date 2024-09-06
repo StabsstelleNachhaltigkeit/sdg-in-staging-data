@@ -1822,7 +1822,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -1830,8 +1830,19 @@
             "type": "integer"
           },
           {
+            "name": "Fläche",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Biotop",
+                "gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
