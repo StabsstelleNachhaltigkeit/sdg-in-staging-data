@@ -749,6 +749,19 @@
             "type": "integer"
           },
           {
+            "name": "Einrichtung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Integrationsbeauftragte",
+                "VHS",
+                "Stadtbücherei",
+                "gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
