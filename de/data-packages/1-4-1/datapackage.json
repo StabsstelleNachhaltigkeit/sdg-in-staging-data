@@ -16,8 +16,21 @@
             "title": "Jahr"
           },
           {
+            "name": "SGB XII",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hilfe zum Lebensunterhalt",
+                "Grundsicherung",
+                "Erwerbsminderungsrenten",
+                ""
+              ]
+            },
+            "title": "SGB XII"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
