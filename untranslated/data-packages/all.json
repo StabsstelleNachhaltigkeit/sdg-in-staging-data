@@ -3284,9 +3284,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Ampeln mit Sensoren",
+                "Ampeln teilausgestattet mit Sensoren",
                 "Barrierefreie Parkplätze",
                 "Eltern-Kind-Parkplätze",
-                "Ampeln mit Sensoren",
                 "Blindenleitsysteme",
                 "Bushaltestellen",
                 "Busse",
