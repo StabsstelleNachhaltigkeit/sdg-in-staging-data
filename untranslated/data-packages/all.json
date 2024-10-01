@@ -1338,6 +1338,47 @@
       "title": "4-5"
     },
     {
+      "path": "3-14/data.csv",
+      "name": "3-14",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Versorgungsgrad",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hausärzte",
+                "Augenärzte",
+                "Chirurgen und Orthopäden",
+                "Frauenärzte",
+                "Hautärzte",
+                "HNO",
+                "Kinder- und Jugendärzte",
+                "Nervenärzte sowie Neurologen und Psychiater",
+                "Psychotherapeuten",
+                "Urologen",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "3-14"
+    },
+    {
       "path": "4-2/data.csv",
       "name": "4-2",
       "profile": "tabular-data-resource",
