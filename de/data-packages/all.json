@@ -572,7 +572,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -585,8 +585,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "barrierefrei",
-                "gesamt",
+                "barrierefrei gesamt",
+                "städtisch und barrierefrei",
+                "städtisch gesamt",
                 ""
               ]
             },
