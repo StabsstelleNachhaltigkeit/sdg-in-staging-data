@@ -16,20 +16,20 @@
             "title": "Jahr"
           },
           {
-            "name": "Pflegeplatzart",
+            "name": "Pflegeangebot",
             "type": "string",
             "constraints": {
               "enum": [
-                "Langzeitpflegeplätze",
                 "ambulante Pflegeangebote",
+                "Langzeitpflegeplätze",
                 ""
               ]
             },
-            "title": "Pflegeplatzart"
+            "title": "Pflegeangebot"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
