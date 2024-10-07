@@ -928,6 +928,18 @@
             "type": "integer"
           },
           {
+            "name": "Art des Wohngeldes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mietzuschuss",
+                "Lastenzuschuss",
+                "Gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
