@@ -22,9 +22,9 @@
             "constraints": {
               "enum": [
                 "Kommunalwahl",
-                "Landtagswahl",
                 "Bundestagswahl",
                 "Europawahl",
+                "Landtagswahl",
                 ""
               ]
             }
