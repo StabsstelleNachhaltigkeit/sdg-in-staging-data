@@ -1057,12 +1057,11 @@
                 "Biomasse in kW",
                 "Biomasse in kW/EW",
                 "Wasserkraft in kW",
-                "Wasserkraft in kw/EW",
+                "Wasserkraft in kW/EW",
                 "Photovoltaik in kW",
                 "Photovoltaik in kW/EW",
                 "Gesamt in kW",
                 "Gesamt in kW/EW",
-                "Wasserkraft in kW/EW",
                 ""
               ]
             }
