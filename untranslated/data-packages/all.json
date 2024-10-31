@@ -517,21 +517,15 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Naherholungsflächen",
             "type": "string",
             "constraints": {
               "enum": [
-                "52.0",
-                "7226500.0",
-                "52.8",
-                "7231100.0",
-                "52.4",
-                "7232000.0",
-                "51.3",
-                "50.8",
+                "m² / EW",
+                "m² gesamt",
                 ""
               ]
             }
