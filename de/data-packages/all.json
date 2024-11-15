@@ -464,7 +464,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Jahr"
           },
           {
@@ -472,6 +472,8 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Bayern",
+                "Ingolstadt",
                 ""
               ]
             },
@@ -479,7 +481,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Value"
           }
         ]
