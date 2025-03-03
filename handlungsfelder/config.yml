@@ -2,7 +2,7 @@ display_as: tile # tab/tile
 
 frontpage_handlungsfelder:  
   - title: Wirtschaft
-    icon: 
+    icon: "fa fa-gear"
     leitsatz: |
       Wir schaffen die Rahmenbedingungen für eine nachhaltige Entwicklung der Wirtschaft. 
       Als vernetzte, zukunftsorientierte und attraktive Stadt sichern wir mit technologischem 
@@ -11,6 +11,7 @@ frontpage_handlungsfelder:
     hf-color: '#007ebe'
 
   - title: Umwelt
+    icon: "fas fa-solar-panel"
     leitsatz: |
       Wir fördern Klimaneutralität und Umweltschutz auch durch technische und digitale Lösungen. 
       Ökologische und regionale Landwirtschaft sowie der Erhalt der Biodiversität werden unterstützt. 
@@ -19,6 +20,7 @@ frontpage_handlungsfelder:
     hf-color: '#65b448'
 
   - title: Leben
+    icon: "fa fa-tree"
     leitsatz: |
         Wir ermöglichen gesundes und sicheres Miteinander, Wohnen und Arbeiten für alle Menschen in Ingolstadt. 
         Wir planen unsere Stadt mit ihren öffentlichen Räumen nachhaltig, generationsgerecht und inklusiv. 
@@ -27,6 +29,7 @@ frontpage_handlungsfelder:
     hf-color: '#f8b715'
 
   - title: Vielfalt
+    icon: "fa fa-globe"
     leitsatz: |
       Wir arbeiten aktiv an einer Stadtgesellschaft, die für Vielfalt und Respekt steht. 
       Unser Ziel sind Teilhabe und Chancengleichheit aller. 
@@ -35,6 +38,7 @@ frontpage_handlungsfelder:
     hf-color: '#ed6d29'
 
   - title: Bildung
+    icon: "fa fa-pencil"
     leitsatz: |
         Wir fördern Bildung, Kunst und Kultur für alle Menschen in unserer Stadt. 
         Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Entfaltung und Entwicklung. 
