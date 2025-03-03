@@ -1,4 +1,4 @@
-display_as: tile # tab/tile
+display_as: tab # tab/tile
 
 frontpage_handlungsfelder:  
   - title: Wirtschaft
