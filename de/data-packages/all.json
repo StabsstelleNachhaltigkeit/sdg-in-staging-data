@@ -3140,7 +3140,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -3149,16 +3149,16 @@
             "title": "Jahr"
           },
           {
-            "name": "Hitze- und Tropentage",
+            "name": "Hitzetage und Tropennächte ",
             "type": "string",
             "constraints": {
               "enum": [
                 "Hitzetag",
-                "Tropentag",
+                "Tropennacht",
                 ""
               ]
             },
-            "title": "Hitze- und Tropentage"
+            "title": "Hitzetage und Tropennächte "
           },
           {
             "name": "Value",
