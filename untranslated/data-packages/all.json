@@ -2898,6 +2898,17 @@
             "type": "integer"
           },
           {
+            "name": "Hitze- und Tropentage",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hitzetag",
+                "Tropentag",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

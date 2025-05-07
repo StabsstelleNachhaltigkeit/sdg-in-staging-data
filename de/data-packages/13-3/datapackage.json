@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Hitze- und Tropentage",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hitzetag",
+                "Tropentag",
+                ""
+              ]
+            },
+            "title": "Hitze- und Tropentage"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
