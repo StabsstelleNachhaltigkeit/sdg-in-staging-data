@@ -1969,6 +1969,28 @@
       "title": "3-8"
     },
     {
+      "path": "3-16/data.csv",
+      "name": "3-16",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "3-16"
+    },
+    {
       "path": "13-2/data.csv",
       "name": "13-2",
       "profile": "tabular-data-resource",
