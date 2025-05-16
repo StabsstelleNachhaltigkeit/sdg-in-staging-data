@@ -26,6 +26,8 @@
 3-13-title: Adipositas
 3-14-title: Ambulante Versorgungssituation
 3-15-title: Wohnungsnahe Grundversorgung - Hausarzt
+3-16-title: Anzahl der Präventionsmaßnahmen für Mitarbeitende der Stadtverwaltung
+3-17-title: Anzahl der Langzeiterkrankten Mitarbeitenden der Stadtverwaltung
 
 4-1-title: Studierendenanzahl und Anteil ausländischer Studierender
 4-2-title: Aus- und Weiterbildungsangebote für städtische Mitarbeitende
@@ -62,6 +64,9 @@
 8-6-title: sv-Beschäftigte
 8-7-title: Auszubildende am Standort
 8-8-title: Wanderungssaldo
+8-9-title: Anzahl der Arbeitszeitmodelle für städtische Mitarbeitende
+8-10-title: Zahl der Mitarbeitenden und offenen Stellen bei der Stadt Ingolstadt
+8-11-title: Zahl der Auszubildenden bei der Stadt Ingolstadt
 
 9-1-title: Gründungssaldo
 9-2-title: Breitbandversorgung
@@ -70,6 +75,7 @@
 9-5-title: Anzahl öffentlich zugänglicher Datensätze
 9-6-title: Höhe der Drittmittel
 9-7-title: Erschlossene Gewerbeflächen durch Fernwärmeanschluss
+9-8-title: Online-Verfahren der Stadt Ingolstadt
 
 10-1-title: Anteil der Schüler/-innen an Sonderpädagogischen Förderzentren
 10-2-title: Anzahl der gemeldeten Diskriminierungsfälle
@@ -102,6 +108,9 @@
 11-17-title: Modal Split
 11-18-title: Generationengerechte Treffpunkte im Stadtgebiet 
 11-19-title: Planung und Neubau von Kleingartenanlagen
+11-20-title: Nutzerzahlen der nachhaltigen Mobilitätsangebote der Stadt
+11-21-title: Zahl der Sanierungsmaßnahmen städtischer Liegenschaften
+11-22-title: Zahl städtischer Neubauten mit Nachhaltigkeitszertifizierung
 
 12-1-title: Abfallmenge (private Haushalte)
 12-2-title: Anzahl nachhaltige Kitas (zertifiziert, z.B. Fairtrade)
@@ -109,6 +118,7 @@
 12-4-title: Fairtrade-Town (Anzahl der Zertifizierungen)
 12-5-title: Recyclingquote
 12-6-title: Trinkwasserverbrauch - private Haushalte
+12-7-title: Nachhaltige Beschaffung in der Verwaltung
 
 13-1-title: Anzahl betroffener Bürger/-innen durch besonders belastete Gebiete aus Klimaanalysekarte
 13-2-title: CO2e-Emissionen
@@ -132,6 +142,7 @@
 16-5-title: Steuereinnahmen
 16-6-title: Straftaten (polizeilich gemeldet)
 16-7-title: Wahlbeteiligung
+16-8-title: Nachhaltigkeitsgesteuerte Investitionen
 
 17-1-title: Anzahl Partnerschaften mit Kommunen aus dem Globalen Süden
 17-2-title: Anzahl Projekte mit den Partnerstädten
