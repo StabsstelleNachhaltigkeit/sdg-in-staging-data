@@ -4098,6 +4098,30 @@
       "title": "1-2"
     },
     {
+      "path": "11-22/data.csv",
+      "name": "11-22",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-22"
+    },
+    {
       "path": "8-11/data.csv",
       "name": "8-11",
       "profile": "tabular-data-resource",
