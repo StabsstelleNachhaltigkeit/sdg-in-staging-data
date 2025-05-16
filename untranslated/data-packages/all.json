@@ -3626,6 +3626,39 @@
       "title": "8-9"
     },
     {
+      "path": "9-8/data.csv",
+      "name": "9-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Dienstleistungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "online",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "9-8"
+    },
+    {
       "path": "9-7/data.csv",
       "name": "9-7",
       "profile": "tabular-data-resource",
