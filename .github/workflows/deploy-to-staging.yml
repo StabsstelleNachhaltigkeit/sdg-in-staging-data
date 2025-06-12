@@ -30,6 +30,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
+          # use the python version specified in the mise.toml so there is one fact in one place
           python-version-file: 'mise.toml'
     - name: Install dependencies
       run: |
