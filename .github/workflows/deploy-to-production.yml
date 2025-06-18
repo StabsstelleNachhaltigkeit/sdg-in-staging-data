@@ -28,16 +28,17 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v1
+    - name: Set up Python
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.8
+          python-version: '3.10'
     - name: Install dependencies
       run: |
+        python --version
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt
     - name: Build data
