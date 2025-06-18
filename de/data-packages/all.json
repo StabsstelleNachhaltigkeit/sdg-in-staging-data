@@ -54,7 +54,7 @@
             "title": "Jahr"
           },
           {
-            "name": "Hitzetage und Tropennächte ",
+            "name": "Hitzetage und Tropennächte",
             "type": "string",
             "constraints": {
               "enum": [
@@ -63,7 +63,7 @@
                 ""
               ]
             },
-            "title": "Hitzetage und Tropennächte "
+            "title": "Hitzetage und Tropennächte"
           },
           {
             "name": "Value",
